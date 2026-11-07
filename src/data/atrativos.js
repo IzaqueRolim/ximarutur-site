@@ -10,6 +10,10 @@ import azulMaranhao from '../assets/passeios/lagoa-azul-do-maranhao.jpg'
 import asframa from '../assets/passeios/cachoeira-asframa.jpg'
 import urubui from '../assets/passeios/corredeira-do-urubui.jpg'
 import mutum from '../assets/passeios/cachoeira-do-mutum.jpg'
+import jacuzzis from '../assets/passeios/jacuzzis-do-mutum.jpg'
+import neblina from '../assets/passeios/cachoeira-da-neblina.jpg'
+import pedraFurada from '../assets/passeios/cachoeira-pedra-furada.jpg'
+import iracema from '../assets/passeios/cachoeira-de-iracema.jpg'
 
 // Para adicionar/trocar uma foto: importe o arquivo acima e preencha `imagem`.
 // `posicao` ajusta o enquadramento do recorte (object-position) em fotos verticais.
@@ -31,8 +35,8 @@ export const atrativos = [
   { nome: 'Cachoeira Asframa', imagem: asframa },
   { nome: 'Corredeira do Urubuí', imagem: urubui, posicao: 'center 45%' },
   { nome: 'Cachoeira do Mutum', imagem: mutum },
-  { nome: 'Jacuzzis do Mutum' },
-  { nome: 'Cachoeira da Neblina' },
-  { nome: 'Cachoeira Pedra Furada' },
-  { nome: 'Cachoeira de Iracema' },
+  { nome: 'Jacuzzis do Mutum', imagem: jacuzzis, posicao: 'center 30%' },
+  { nome: 'Cachoeira da Neblina', imagem: neblina, posicao: 'center 40%' },
+  { nome: 'Cachoeira Pedra Furada', imagem: pedraFurada },
+  { nome: 'Cachoeira de Iracema', imagem: iracema, posicao: 'center 45%' },
 ]
